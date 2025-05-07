@@ -5,27 +5,32 @@ But first, let's get you your own copy of this codebase to work with.
 
 ## Task 0 Forking a public repository on GitHub
 
+_You can read more about Fork here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo_
+
 You should be currently reading this README on GitHub in the code repository:
-https://github.com/CSC207-2024F-UofT/FizzBuzz/
+https://github.com/CSC207-2025S-UofT/FizzBuzz
 
 1. Make sure you are logged into GitHub. You should see a button that says `Fork` in the top-right corner of the page.
 Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
 In the new page that comes up, confirm that you want to create the fork and your own FizzBuzz repository will be created
 on GitHub!
+   * Note that there is a checkbox for "Copy the main branch only", for this lab this doesn't matter, but in a future lab or for your own project, you may take a second to think if you also want to copy the other branches.
 
 2. Now that you have your own fork of this repository, close this page, go to your fork, and continue with the next instructions.
 
 3. The next step is to get a local copy of your FizzBuzz repository on your own computer.
 This is called **cloning** the repository.
 You can do this by clicking the green `Code` button in your FizzBuzz repository on GitHub and copying
-the HTTPS URL which you will see. You can copy it by clicking the little 'copy' button with the two rectangles on it.
+the HTTPS URL which you will see. You can copy it by clicking the little 'copy' button with the two rectangles on it. Alternatively, you can `git clone` via SSH. You will find more info about this at: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 4. Open IntelliJ. If you already have a project open, close that project. From the main screen, choose
 the "Get From VCS" option.
+
 5. In the menu that appears, paste the URL. You can either use the default location on your computer to save the project
 or you can choose the directory.
     - Note: if you later make another clone of this repository, it will require you to choose a new directory to save it to,
    since you can't have two projects with the exact same directory.
+
 6. Click the `Clone` button and IntelliJ will set up your project. At this point, it may require you to set up an
 access token to be able to clone the repository from GitHub if you didn't previously do so in the
 software setup instructions on Quercus.
@@ -239,6 +244,8 @@ the commits at once. As you work through the lab today, we encourage you to prac
 
 Now, back to exploring the code!
 
+** if you are unable to push to your repo, please let you TA know, so that they can help you troubleshoot the issue. **
+
 ## Task 3: Seeing private in action
 
 To briefly observe what private does, let's create a new class.
@@ -364,7 +371,7 @@ And that's it for the first lab activity of the term!
       use the `git log` command to view a summary of the commits to the repository.
 
 ## Coding homework for this week
-See the Week 2 module on Quercus for how to get started on the part of the homework related to the above two problems.
+See the Homework 1 module on Quercus for how to get started on the part of the homework related to the above two problems.
 
 ## Learning Java
 You should start working through the learning Java materials available on Quercus. This will more formally
