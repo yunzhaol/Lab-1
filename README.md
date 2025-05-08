@@ -5,7 +5,7 @@ But first, let's get you your own copy of this codebase to work with.
 
 ## Task 0 Forking a public repository on GitHub
 
-_haYou can read more about Fork here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo_
+hahaYou can read more about Fork here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo_
 
 You should be currently reading this README on GitHub in the code repository:
 https://github.com/CSC207-2025S-UofT/Lab-1
